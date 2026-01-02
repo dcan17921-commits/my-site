@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>你的名字｜个人网站</title>
+  <meta name="description" content="你的名字的个人网站：作品集、技能、联系方式。" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main class="wrap">
+    <header class="hero card">
+      <div class="avatar" aria-hidden="true">🙂</div>
+
+      <div class="heroText">
+        <h1 class="name">你的名字</h1>
+        <p class="tagline">一句话介绍：比如「前端入门中｜正在做作品集」</p>
+
+        <div class="btnRow">
+          <button id="copyEmailBtn" class="btn primary" type="button" data-email="yourname@example.com">
+            复制邮箱
+          </button>
+          <a class="btn" href="https://github.com/yourname" target="_blank" rel="noreferrer">
+            打开 GitHub
+          </a>
+        </div>
+
+        <p class="tiny">
+          也可以把第二个按钮改成：B站主页 / 简历链接 / 作品集合集
+        </p>
+      </div>
+    </header>
+
+    <section class="grid">
+      <article class="card proj">
+        <h2>项目一：个人网站</h2>
+        <p>用 HTML/CSS/JS 做的作品集主页，已上线 GitHub Pages。</p>
+        <div class="meta">
+          <span class="pill">HTML</span><span class="pill">CSS</span><span class="pill">JS</span>
+        </div>
+        <div class="links">
+          <a href="#" target="_blank" rel="noreferrer">在线预览</a>
+          <a href="#" target="_blank" rel="noreferrer">源码</a>
+        </div>
+      </article>
+
+      <article class="card proj">
+        <h2>项目二：待补充</h2>
+        <p>建议放一个「可看见结果」的项目，比如 ToDo / 计时器 / 小组件。</p>
+        <div class="meta">
+          <span class="pill">练习</span><span class="pill">可视化</span>
+        </div>
+        <div class="links">
+          <a href="#" target="_blank" rel="noreferrer">在线预览</a>
+          <a href="#" target="_blank" rel="noreferrer">源码</a>
+        </div>
+      </article>
+
+      <article class="card proj">
+        <h2>项目三：待补充</h2>
+        <p>建议放「接单向」内容：落地页、店铺海报合集、网页切图等。</p>
+        <div class="meta">
+          <span class="pill">作品集</span><span class="pill">接单</span>
+        </div>
+        <div class="links">
+          <a href="#" target="_blank" rel="noreferrer">在线预览</a>
+          <a href="#" target="_blank" rel="noreferrer">源码</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="card about">
+      <h2>关于我</h2>
+      <p>
+        这里写三句话就够：你在学什么、想做什么、能提供什么价值。<br />
+        例：我在系统学习前端，正在做作品集；喜欢把页面做得干净好用；可接简单落地页/修改维护。
+      </p>
+
+      <div class="twoCol">
+        <div>
+          <h3>技能</h3>
+          <ul class="list">
+            <li>HTML / CSS 基础布局</li>
+            <li>JavaScript 基础交互</li>
+            <li>GitHub Pages 部署</li>
+          </ul>
+        </div>
+        <div>
+          <h3>联系方式</h3>
+          <ul class="list">
+            <li>邮箱：<span class="mono">yourname@example.com</span></li>
+            <li>微信：<span class="mono">your_wechat</span></li>
+            <li>地区：<span class="mono">Singapore / 远程</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span>© <span id="year"></span> 你的名字</span>
+      <span class="sep">·</span>
+      <a href="https://github.com/yourname" target="_blank" rel="noreferrer">GitHub</a>
+    </footer>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
